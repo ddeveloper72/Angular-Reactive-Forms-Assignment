@@ -23,12 +23,13 @@
         </div>
       </div>
       <br>
-      <form >
+      <form [formGroup]="projectForm">
         <div class="form-group">
           <label for="name">Project name</label>
           <input 
           type="text"
           id="name"
+          formControlName="projectName"
           class="form-control">
         </div>
         <div class="form-group">
@@ -36,12 +37,14 @@
           <input 
           type="email"
           id="email"
+          formControlName="email
           class="form-control">
         </div>
         <div class="form-group">
           <label for="status">Project Status</label>
           <select 
           id="status"
+          formControlName="projectStatus"
           class="form-control">
           <option value="stable">Stable</option>
           <option value="critical">Critical</option>
