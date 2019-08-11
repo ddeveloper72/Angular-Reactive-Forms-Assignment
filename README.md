@@ -1,6 +1,8 @@
-# Assignment - Angular Reactive Forms
+# [Assignment - Angular Reactive Forms](https://ddeveloper72.github.io/Angular-Reactive-Forms-Assignment/)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+Tutorial assignment demonstrating use of reactive forms with validation written in typeScript
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
 
 ## Development server
 
