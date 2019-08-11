@@ -16,4 +16,8 @@ export class AppComponent implements OnInit {
       'projectStatus': new FormControl('critical')
     });
   }
+
+  onSubmitProject(){
+    console.log(this.projectForm.value);
+  }
 }
