@@ -11,6 +11,7 @@ export class AppComponent implements OnInit {
   projectForm: FormGroup;
   forbiddenNames = ['Test1', 'test1'];
   alternateForbiddenNames = ['Test2', 'test2'];
+  projectStatuses = ['Stable', 'Critical', 'Finished'];
 
   ngOnInit() {
     this.projectForm = new FormGroup({
@@ -20,7 +21,7 @@ export class AppComponent implements OnInit {
         this.alternateForbiddenProjectNames.bind(this)
       ),
       email: new FormControl(null, [Validators.required, Validators.email]),
-      projectStatus: new FormControl('critical')
+      projectStatus: new FormControl('Critical')
     });
   }
 
